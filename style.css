@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/* add in the root any repeating css*/
+:root{
+    --main-bg-color:black;
+    --humburger-munu-color:white;
+    --font-color:white;
+
+
+}
+body{
+    background-color: var(--main-bg-color);
+    margin-left: 168px;
+    margin-right: 178px;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+   
+    
+
+}
+nav{
+    width: 100vw;
+}
+/*logo */
+.logo{
+    margin-left: 10px;
+}
+
+ul{
+    display: inline-flex;
+    float: right;
+    margin-top: 50px;
+    margin-right: 231px;
+    /* padding: 39px; */
+    gap: 30px;
+}
+li{
+    display: inline-block;
+
+}
+a{
+    text-decoration: none;
+    color:var(--font-color);
+
+/* Pikkuotsikko */
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+a:hover{
+    color: #D61D3F;
+}
+
+/*Humburger menue */
+.humburger-menu{
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+/* when humburger div is hover we change the background color of lines*/
+
+.humburger-menu:hover .line1, 
+.humburger-menu:hover .line2, 
+.humburger-menu:hover .line3 {
+    background-color: #D61D3F;
+} 
+.line1, .line2 , .line3{
+    width: 35px;
+    height: 5px;
+    background-color: var(--humburger-munu-color);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/*after Rotate2x function  */
+.change .line1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .line2 {opacity: 0;}
+  
+  .change .line3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+
+
+
+
+
+.cto{
+    width: 1463px;
+    height: 915px;
+    flex-shrink: 0;
+    background: url(/img/image\ 1.png), lightgray 50% / cover no-repeat;
+    margin-top: -45px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+h2{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.80);
+
+    /* Title */
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    margin-top: 35%;
+    margin-left: 303px;
+}
+
+
+h4{
+    color: var(--font-color); 
+    font-size: 18px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 26px; 
+    word-wrap: break-word
+}
+.movies{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    float: right;
+}
+/*¨suositelmat section  the movie slide section*/
+
+.suositelmat{
+    position: relative;
+    width: 1389px; 
+    height: 26px; 
+    justify-content: space-between; 
+    align-items: flex-end; 
+    display: inline-flex
+}
+.lisa{
+    color: #D32444; 
+    font-size: 16px; 
+    font-family: Raleway; 
+    font-weight: 700; 
+    line-height: 24px; 
+    word-wrap: break-word
+}
