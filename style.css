@@ -155,3 +155,23 @@ h4{
     line-height: 24px; 
     word-wrap: break-word
 }
+
+.Quotation_Mark_left{
+    width: 40px; 
+    padding: 12px; 
+    border-radius: 8px; 
+    border: 1px #989AAD solid; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 8px; 
+    display: flex"
+}
+.Quotation_Mark_right{
+    width: 40px; 
+    padding: 12px; 
+    border-radius: 8px; border: 1px #989AAD solid; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 8px; 
+    display: flex"
+}
