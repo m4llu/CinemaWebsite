@@ -38,25 +38,27 @@
     </select>
     
 
-    <select style="padding: 5px; margin-top: 200px; margin-left:20px;" name="elokuva" id="elokuva-valitsin">
-      <option value="">--Valitse Näytös--</option>
-      <option id="currentDate" value="date"></option>
-      <option id="currentDate" value="date"></option>
-    </select>
+    <input id="currentDate" type="date" min="" max="">
 
     <div style="height: 200px;">
 
     </div>
     <script> <!-- Getting current date for selection -->
-      const date = new Date();
+      var today = new Date();
+        var dd = today.getDate();
+        var mm = today.getMonth() + 1; //January is 0, add 1
+        var yyyy = today.getFullYear();
+        if(dd<10){
+          dd='0'+dd
+        } 
+        if(mm<10){
+          mm='0'+mm
+        } 
 
-      let day = date.getDate();
-      let month = date.getMonth() + 1;
-      let year = date.getFullYear();
-      
-      let currentDate = `${day}.${month}.${year}`;
-      console.log(currentDate)
-      const elem = document.getElementById("currentDate").innerHTML = currentDate;
+        today = yyyy+'-'+mm+'-'+dd;
+        document.getElementById("currentDate").setAttribute("min", today);
+        document.getElementById("currentDate").setAttribute("max",  "FIX THISSSSSS");
+        console.log(today)
     </script>
     
     
