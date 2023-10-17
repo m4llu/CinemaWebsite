@@ -298,6 +298,8 @@ p{
   }
   
 .PG-rating {
+    margin-top: -10px;
+    color: #FFF;
     display: inline-flex;
     align-items: flex-start;
     gap: 10px;
