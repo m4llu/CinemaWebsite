@@ -1,0 +1,541 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+/* add in the root any repeating css*/
+:root{
+    --main-bg-color:black;
+    --humburger-munu-color:white;
+    --font-color:white;
+
+
+}
+body{
+    background-color: var(--main-bg-color);
+    margin-left: 168px;
+    margin-right: 178px;
+    
+}
+header{
+    display: flex;
+    flex-direction: row;
+   
+    
+
+}
+nav{
+    width: 100vw;
+}
+/*logo */
+.logo{
+    margin-left: 0px;
+}
+
+ul{
+    display: inline-flex;
+    float: right;
+    margin-top: 40px;
+    margin-right: 100px;
+    /* padding: 39px; */
+    gap: 30px;
+}
+li{
+    display: inline-block;
+
+}
+a{
+    text-decoration: none;
+    color:var(--font-color);
+
+/* Pikkuotsikko */
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+a:hover{
+    color: #D61D3F;
+}
+
+/*Humburger menue */
+.humburger-menu{
+    display: inline-block;
+    cursor: pointer;
+    float: right;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+/* when humburger div is hover we change the background color of lines*/
+
+.humburger-menu:hover .line1, 
+.humburger-menu:hover .line2, 
+.humburger-menu:hover .line3 {
+    background-color: #D61D3F;
+} 
+.line1, .line2 , .line3{
+    width: 35px;
+    height: 5px;
+    background-color: var(--humburger-munu-color);
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+/*after Rotate2x function  */
+.change .line1 {
+    transform: translate(0, 11px) rotate(-45deg);
+  }
+  
+  .change .line2 {opacity: 0;}
+  
+  .change .line3 {
+    transform: translate(0, -11px) rotate(45deg);
+  }
+
+
+
+
+
+.cto{
+    width: 1463px;
+    height: 915px;
+    flex-shrink: 0;
+    background: url(/img/image\ 1.png), lightgray 50% / cover no-repeat;
+    margin-top: -45px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+}
+h2{
+    position: absolute;
+    color: #FFF;
+    text-align: center;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.80);
+
+    /* Title */
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    margin-top: 35%;
+    margin-left: 303px;
+}
+
+
+h4{
+    color: var(--font-color); 
+    font-size: 18px; 
+    font-family: Poppins; 
+    font-weight: 600; 
+    line-height: 26px; 
+    word-wrap: break-word
+}
+.movies{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    float: right;
+}
+/*¨suositelmat section  the movie slide section*/
+
+.suositelmat{
+    position: relative;
+    width: 1389px; 
+    height: 26px; 
+    justify-content: space-between; 
+    align-items: flex-end; 
+    display: inline-flex
+}
+.lisa{
+    color: #D32444; 
+    font-size: 16px; 
+    font-family: Raleway; 
+    font-weight: 700; 
+    line-height: 24px; 
+    word-wrap: break-word
+}
+
+.Quotation_Mark_left{
+    width: 40px; 
+    padding: 12px; 
+    border-radius: 8px; 
+    border: 1px #989AAD solid; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 8px; 
+    display: flex"
+}
+.Quotation_Mark_right{
+    width: 40px; 
+    padding: 12px; 
+    border-radius: 8px; border: 1px #989AAD solid; 
+    justify-content: center; 
+    align-items: center; 
+    gap: 8px; 
+    display: flex"
+}
+
+.movies {
+    position: relative;
+    width: 1389px;
+    height: 364px;
+   
+  }
+p{
+    color: white;
+    position: absolute;
+}
+.movies-2 {
+    display: flex;
+    width: 1340px;
+    align-items: flex-start;
+    gap: 38px;
+    position: relative;
+  }
+  
+.movie-card {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+.cover {
+    background-image: url(https://c.animaapp.com/gs0lYZzG/img/image-9@2x.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+  }
+  
+.detail {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+.movie-name {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+.movie-name-2 {
+    position: relative;
+    flex: 1;
+    height: 26px;
+    margin-top: -1px;
+    font-family: "Poppins", Helvetica;
+    font-weight: 500;
+    color: var(--white);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 26px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+  }
+.rating {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+.star-rating {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+.star {
+    position: relative;
+    width: 14px;
+    height: 14px;
+  }
+  
+.element {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+.span {
+    font-weight: 600;
+    color: #ffffff;
+  }
+  
+.text-wrapper-8 {
+    font-weight: 500;
+    color: #ffffff;
+    font-size: 12px;
+  }
+  
+.PG-rating {
+    margin-top: -10px;
+    color: #FFF;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 2px 6px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: var(--manatee);
+  }
+.text-wrapper-9 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Raleway", Helvetica;
+    font-weight: 700;
+    color: var(--manatee);
+    font-size: 8px;
+    letter-spacing: 0;
+    line-height: 12px;
+    white-space: nowrap;
+  }
+  
+.cover-2 {
+    background-image: url(https://c.animaapp.com/gs0lYZzG/img/image-8@2x.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+  }
+  
+.cover-3 {
+    background-image: url(https://c.animaapp.com/gs0lYZzG/img/image-7@2x.png);
+    background-size: 100% 100%;
+    position: relative;
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+  }
+.cover-4 {
+    background-image: url(https://c.animaapp.com/gs0lYZzG/img/image-3@2x.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+  }
+  
+.cover-5 {
+    background-image: url(https://c.animaapp.com/gs0lYZzG/img/image-2@2x.png);
+    background-size: cover;
+    background-position: 50% 50%;
+    position: relative;
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+  }
+  
+.movie-card-2 {
+    margin-right: -50px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+.cover-6 {
+    background-image: url(https://c.animaapp.com/gs0lYZzG/img/image-1@2x.png);
+    background-size: 100% 100%;
+    position: relative;
+    width: 200px;
+    height: 300px;
+    border-radius: 8px;
+  }
+
+
+footer {
+    width: 1444px;
+    height: 468px;
+    top: 2944px;
+    background-color: transparent;
+    position: absolute;
+    
+  }
+  
+.overlap-2 {
+    position: relative;
+    width: 1440px;
+    height: 468px;
+    background-color: #141414;
+  }
+  
+.FOOTER-SPONSORIT {
+    width: 1440px;
+    height: 224px;
+    top: 244px;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+  }
+  
+.overlap-group-2 {
+    position: absolute;
+    width: 591px;
+    height: 189px;
+    top: 45px;
+    left: 796px;
+  }
+  
+.image {
+    width: 255px;
+    height: 99px;
+    top: 90px;
+    left: 303px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+.image-2 {
+    width: 278px;
+    height: 78px;
+    top: 101px;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+.text-wrapper-10 {
+    position: absolute;
+    width: 543px;
+    top: 0;
+    left: 0;
+    font-family: var(--pikkuotsikko-font-family);
+    font-weight: var(--pikkuotsikko-font-weight);
+    color: #ffffff;
+    font-size: var(--pikkuotsikko-font-size);
+    letter-spacing: var(--pikkuotsikko-letter-spacing);
+    line-height: var(--pikkuotsikko-line-height);
+    font-style: var(--pikkuotsikko-font-style);
+  }
+  
+
+.image-3 {
+    width: 739px;
+    height: 163px;
+    top: 54px;
+    left: 32px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  
+/* OSTO JUTTUSET */
+
+.container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+} .item{ position: absolute;
+}
+#item_0 {
+    top: 97px;
+    width: 1377px;
+    height: 702px;
+    background-color: rgba(255, 255, 255, 1);
+}
+#item_1 {
+    top: 129px;
+    width: 1312px;
+    height: 303px;
+    background-color: rgba(228, 228, 228, 1);
+    }
+#item_2 {
+    top: 461px;
+    width: 1312px;
+    height: 303px;
+    background-color: rgba(228, 228, 228, 1);
+}
+#item_3 {
+    left: -50px;
+    top: 110px;
+    font-size: 30px;
+    font-weight: Medium;
+    color: rgba(0, 0, 0, 1);
+}
+#item_4 {
+    left: -50px;
+    top: 450px;
+    font-size: 30px;
+    font-weight: Medium;
+    color: rgba(0, 0, 0, 1);
+}
+#item_5 {
+    left: -40px;
+    top: 330px;
+    font-size: 30px;
+    font-weight: Medium;
+    color: rgba(0, 0, 0, 1);
+}
+#item_6 {
+    left: -40px;
+    top: 655px;
+    font-size: 30px;
+    font-weight: Medium;
+    color: rgba(0, 0, 0, 1);
+}
+#item_7 {
+    left: 150px;
+    top: 350px;
+    width: 131px;
+    height: 62px;
+    background-color: rgba(238, 99, 102, 1);
+}
+#item_8 {
+    left: 165px;
+    top: 670px;
+    width: 131px;
+    height: 62px;
+    background-color: rgba(238, 99, 102, 1);
+}
+#item_9 {
+    left: 180px;
+    top: 330px;
+    font-size: 30px;
+    font-weight: Medium;
+    color: rgb(247, 247, 247);
+}
+#item_10 {
+    left: 195px;
+    top: 650px;
+    font-size: 30px;
+    font-weight: Medium;
+    color: rgb(255, 255, 255);
+}
