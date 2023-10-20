@@ -154,3 +154,545 @@ h4{
     line-height: 24px; 
     word-wrap: break-word
 }
+
+
+  .YHTEYSTIEDOT {
+    background-color: #020101;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .YHTEYSTIEDOT .div {
+    background-color: #020101;
+    overflow: hidden;
+    width: 1440px;
+    height: 1860px;
+    position: relative;
+  }
+  
+  .YHTEYSTIEDOT .text {
+    position: relative;
+    width: 70%;
+    top: 650px;
+    margin: auto;
+    text-align: center;
+    font-family: var(--content-font-family);
+    font-weight: var(--content-font-weight);
+    color: #ffffff;
+    font-size: var(--content-font-size);
+    letter-spacing: var(--content-letter-spacing);
+    line-height: var(--content-line-height);
+    font-style: var(--content-font-style);
+  }
+  
+  .YHTEYSTIEDOT .overlap {
+    position: absolute;
+    width: 100%;
+    height: 657px;
+    top: 0;
+    left: 0;
+  }
+  
+  .YHTEYSTIEDOT .contact  {
+    position: absolute;
+    top: 880px;
+    width: 1093px;
+    display: block;
+    height: 203px;
+    align-content: center;
+  }
+  
+  .YHTEYSTIEDOT .contact1  {
+    position: absolute;
+    width: auto;
+    display: block;
+    height: 203px;
+    left: 200px;
+    font-family: var(--content-font-family);
+    font-weight: var(--content-font-weight);
+    color: #ffffff;
+    font-size: var(--content-font-size);
+    letter-spacing: var(--content-letter-spacing);
+    line-height: var(--content-line-height);
+    font-style: var(--content-font-style);
+    top: 900px;
+  }
+  
+  .YHTEYSTIEDOT .contact2  {
+    position: absolute;
+    width: auto;
+    display: block;
+    height: 203px;
+    right: 200px;
+    font-family: var(--content-font-family);
+    font-weight: var(--content-font-weight);
+    color: #ffffff;
+    font-size: var(--content-font-size);
+    letter-spacing: var(--content-letter-spacing);
+    line-height: var(--content-line-height);
+    font-style: var(--content-font-style);
+    top: 900px;
+  }
+  
+  
+  
+  .YHTEYSTIEDOT .BANNER {
+    height: 460px;
+    top: 0;
+    position: relative;
+    width: 100%;
+    left: 0;
+    object-fit: cover;
+    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+  }
+  
+  .YHTEYSTIEDOT .img {
+    top: 74px;
+    position: absolute;
+    width: 28px;
+    height: 4px;
+    left: 1349px;
+  }
+  
+  .YHTEYSTIEDOT .LOGO {
+    position: absolute;
+    width: 200px;
+    top: 20px;
+    left: 20px;
+    object-fit: cover;
+    z-index: 10;
+  }
+  
+  .YHTEYSTIEDOT .BANNER-GRADIENT {
+    height: 474px;
+    top: 0px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    width: 1478px;
+    left: -19px;
+    object-fit: cover;
+  }
+  
+  .YHTEYSTIEDOT .text-wrapper-2 {
+    position: relative;
+    text-align: center;
+    top: 496px;
+    font-family: var(--title-font-family);
+    font-weight: var(--title-font-weight);
+    color: #ffffff;
+    font-size: var(--title-font-size);
+    letter-spacing: var(--title-letter-spacing);
+    line-height: var(--title-line-height);
+    font-style: var(--title-font-style);
+    margin: auto;
+  }
+  
+  .YHTEYSTIEDOT .footer {
+    width: 1444px;
+    height: 468px;
+    top: 1420px;
+    background-color: transparent;
+    position: absolute;
+  }
+  
+    .YHTEYSTIEDOT .overlap-group {
+    position: relative;
+    width: 1440px;
+    height: 468px;
+    background-color: #141414;
+  }
+  
+  .YHTEYSTIEDOT .FOOTER-SPONSORIT {
+    width: 1440px;
+    height: 224px;
+    top: 244px;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+  }
+  
+  .YHTEYSTIEDOT .overlap-2 {
+    position: absolute;
+    width: 591px;
+    height: 189px;
+    top: 45px;
+    left: 796px;
+  }
+  
+  .YHTEYSTIEDOT .image {
+    width: 255px;
+    height: 99px;
+    top: 90px;
+    left: 303px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .YHTEYSTIEDOT .image-2 {
+    width: 278px;
+    height: 78px;
+    top: 101px;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .YHTEYSTIEDOT .text-wrapper-3 {
+    position: absolute;
+    width: 543px;
+    top: 0;
+    left: 0;
+    font-family: var(--pikkuotsikko-font-family);
+    font-weight: var(--pikkuotsikko-font-weight);
+    color: #ffffff;
+    font-size: var(--pikkuotsikko-font-size);
+    letter-spacing: var(--pikkuotsikko-letter-spacing);
+    line-height: var(--pikkuotsikko-line-height);
+    font-style: var(--pikkuotsikko-font-style);
+  }
+  
+  .YHTEYSTIEDOT .p {
+    position: absolute;
+    width: 591px;
+    top: 44px;
+    left: 0;
+    font-family: var(--content-font-family);
+    font-weight: var(--content-font-weight);
+    color: #ffffff;
+    font-size: var(--content-font-size);
+    letter-spacing: var(--content-letter-spacing);
+    line-height: var(--content-line-height);
+    font-style: var(--content-font-style);
+  }
+  
+  .YHTEYSTIEDOT .div-wrapper {
+    position: absolute;
+    width: 314px;
+    height: 69px;
+    top: 1200px;
+    margin-left: 37.5%;
+    background-color: var(--detail);
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  .YHTEYSTIEDOT .div-wrapper:hover {
+    width: 314px;
+    height: 69px;
+    background-color: #8f1818ce;
+  }
+  
+  .YHTEYSTIEDOT .text-wrapper-4 {
+    position: absolute;
+    width: 195px;
+    top: 20px;
+    left: 69px;
+    text-shadow: 0px 1px 4px #00000040;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  body    {
+    background-color: #020101;
+  }
+  .ELOKUVA {
+    background-color: #020101;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .ELOKUVA .div {
+    background-color: #020101;
+    overflow: hidden;
+    width: 1440px;
+    height: 1660px;
+    position: relative;
+  }
+  
+  .ELOKUVA .christopher-nolanin {
+    position: relative;
+    width: auto;
+    top: 650px;
+    left: 25px;
+    font-family: var(--content-font-family);
+    font-weight: var(--content-font-weight);
+    color: #ffffff;
+    font-size: var(--content-font-size);
+    letter-spacing: var(--content-letter-spacing);
+    line-height: var(--content-line-height);
+    font-style: var(--content-font-style);
+    margin-right: 25px;
+  }
+  
+  .ELOKUVA .overlap {
+    position: absolute;
+    width: 100%;
+    height: 657px;
+    top: 0;
+    left: 0;
+  }
+  
+  .ELOKUVA .BANNER {
+    height: 460px;
+    top: 0;
+    position: relative;
+    width: 100%;
+    left: 0;
+    object-fit: cover;
+    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+  }
+  .vignette {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 200px rgba(0,0,0,0.9) inset;
+  }
+  
+  .ELOKUVA .LOGO-JA-MENUNAPPI {
+    position: absolute;
+    width: 1377px;
+    height: 180px;
+    top: 8px;
+    left: 25px;
+  }
+  
+  .ELOKUVA .rectangle {
+    top: 60px;
+    background-color: #f2f2f2;
+    border-radius: 1px;
+    position: absolute;
+    width: 28px;
+    height: 4px;
+    left: 1349px;
+  }
+  
+  .ELOKUVA .rectangle-2 {
+    top: 67px;
+    background-color: #f2f2f2;
+    border-radius: 1px;
+    position: absolute;
+    width: 28px;
+    height: 4px;
+    left: 1349px;
+  }
+  
+  .ELOKUVA .img {
+    top: 74px;
+    position: absolute;
+    width: 28px;
+    height: 4px;
+    left: 1349px;
+  }
+  
+  .ELOKUVA .LOGO {
+    position: absolute;
+    width: 200px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    z-index: 10;
+  }
+  
+  .ELOKUVA .IKRAJAT {
+    position: absolute;
+    width: 887px;
+    height: 66px;
+    top: 500px;
+    left: 530px;
+  }
+  
+  .ELOKUVA .element-ICON {
+    position: absolute;
+    width: 62px;
+    height: auto;
+    top: 2px;
+    left: 0;
+    object-fit: cover;
+    z-index: 10;
+  }
+  
+  .ELOKUVA .SPIDER-ICON {
+    position: absolute;
+    width: 62px;
+    height: 66px;
+    top: 0;
+    left: 71px;
+    object-fit: cover;
+  }
+  
+  .ELOKUVA .text-wrapper {
+    position: absolute;
+    width: 638px;
+    margin-left: auto;
+    font-family: "Poppins-Medium", Helvetica;
+    font-weight: 500;
+    color: #9f9f9f;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    top: 502px;
+    left: 770px;
+  }
+  
+  .ELOKUVA .DRUG-ICON {
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    top: 2px;
+    left: 142px;
+    object-fit: cover;
+  }
+  
+  .ELOKUVA .BANNER-GRADIENT {
+    height: 474px;
+    top: 0px;
+    mix-blend-mode: multiply;
+    position: absolute;
+    width: 1478px;
+    left: -19px;
+    object-fit: cover;
+  }
+  
+  .ELOKUVA .text-wrapper-2 {
+    position: absolute;
+    width: 523px;
+    top: 496px;
+    left: 23px;
+    font-family: var(--title-font-family);
+    font-weight: var(--title-font-weight);
+    color: #ffffff;
+    font-size: var(--title-font-size);
+    letter-spacing: var(--title-letter-spacing);
+    line-height: var(--title-line-height);
+    font-style: var(--title-font-style);
+  }
+  
+  .ELOKUVA .footer {
+    width: 1444px;
+    height: 468px;
+    top: 1220px;
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+  }
+  
+  .ELOKUVA .overlap-group {
+    position: relative;
+    width: 1440px;
+    height: 468px;
+    background-color: #141414;
+  }
+  
+  .ELOKUVA .FOOTER-SPONSORIT {
+    width: 1440px;
+    height: 224px;
+    top: 244px;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+  }
+  
+  .ELOKUVA .overlap-2 {
+    position: absolute;
+    width: 591px;
+    height: 189px;
+    top: 45px;
+    left: 796px;
+  }
+  
+  .ELOKUVA .image {
+    width: 255px;
+    height: 99px;
+    top: 90px;
+    left: 303px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .ELOKUVA .image-2 {
+    width: 278px;
+    height: 78px;
+    top: 101px;
+    left: 0;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .ELOKUVA .text-wrapper-3 {
+    position: absolute;
+    width: 543px;
+    top: 0;
+    left: 0;
+    font-family: var(--pikkuotsikko-font-family);
+    font-weight: var(--pikkuotsikko-font-weight);
+    color: #ffffff;
+    font-size: var(--pikkuotsikko-font-size);
+    letter-spacing: var(--pikkuotsikko-letter-spacing);
+    line-height: var(--pikkuotsikko-line-height);
+    font-style: var(--pikkuotsikko-font-style);
+  }
+  
+  .ELOKUVA .p {
+    position: absolute;
+    width: 591px;
+    top: 44px;
+    left: 0;
+    font-family: var(--content-font-family);
+    font-weight: var(--content-font-weight);
+    color: #ffffff;
+    font-size: var(--content-font-size);
+    letter-spacing: var(--content-letter-spacing);
+    line-height: var(--content-line-height);
+    font-style: var(--content-font-style);
+  }
+  
+  .ELOKUVA .image-3 {
+    width: 739px;
+    height: 163px;
+    top: 54px;
+    left: 32px;
+    position: absolute;
+    object-fit: cover;
+  }
+  
+  .ELOKUVA .div-wrapper {
+    position: absolute;
+    width: 314px;
+    height: 69px;
+    top: 1100px;
+    left: 563px;
+    background-color: var(--detail);
+    border-radius: 10px;
+    transition: 0.3s;
+  }
+  
+  .ELOKUVA .div-wrapper:hover {
+    width: 314px;
+    height: 69px;
+    background-color: #8f1818ce;
+  }
+  
+  .ELOKUVA .text-wrapper-4 {
+    position: absolute;
+    width: 195px;
+    top: 20px;
+    left: 69px;
+    text-shadow: 0px 1px 4px #00000040;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
